@@ -1,0 +1,94 @@
+steam.sh[57491]: Running Steam on ubuntu 22.04 64-bit
+steam.sh[57491]: STEAM_RUNTIME is enabled automatically
+setup.sh[57610]: Steam runtime environment up-to-date!
+steam.sh[57491]: Steam client's requirements are satisfied
+05/14 11:09:34 Init: Installing breakpad exception handler for appid(steam)/version(1700160213)/tid(57669)
+[2024-05-14 11:09:34] Startup - updater built Nov 16 2023 18:22:28
+[2024-05-14 11:09:34] Startup - Steam Client launched with: '/home/gabriel-oliveira/.local/share/Steam/ubuntu12_32/steam'
+Looks like steam didn't shutdown cleanly, scheduling immediate update check
+[2024-05-14 11:09:34] Loading cached metrics from disk (/home/gabriel-oliveira/.local/share/Steam/package/steam_client_metrics.bin)
+[2024-05-14 11:09:34] Using the following download hosts for Public, Realm steamglobal
+[2024-05-14 11:09:34] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 1000, source = 'update_hosts_cached.vdf'
+[2024-05-14 11:09:34] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'update_hosts_cached.vdf'
+[2024-05-14 11:09:34] 3. https://cdn.steamstatic.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2024-05-14 11:09:34] Checking for update on startup
+[2024-05-14 11:09:34] Checking for available updates...
+[2024-05-14 11:09:34] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_client_ubuntu12
+[2024-05-14 11:09:34] Manifest download: send request
+[2024-05-14 11:09:34] Manifest download: waiting for download to finish
+[2024-05-14 11:09:35] Manifest download: finished
+[2024-05-14 11:09:35] Downloaded new manifest: /steam_client_ubuntu12 version 1715635533, installed version 1700160213, existing pending version 0
+[2024-05-14 11:09:35] Package file tenfoot_images_all.zip.vz.193cb8c4eb4446698ea2c0a9e8c4e6b6a623dac7_5572671 missing or incorrect size
+[2024-05-14 11:09:35] Package file steamui_websrc_all.zip.vz.332e3ad11531fbc73d9d4386db69e19ee5204a94_23944019 missing or incorrect size
+[2024-05-14 11:09:35] Package file resources_all.zip.vz.3c8b3203e5c69d75ea0684c2409b86fe4d0d6f83_2856188 missing or incorrect size
+[2024-05-14 11:09:35] Package file strings_en_all.zip.e1cd2a3b5822d0400544f9bed9058c3a1bd33ded missing or incorrect size
+[2024-05-14 11:09:35] Package file strings_all.zip.vz.314c1458602e7b2229885ddfb8ab5ece82c115d2_1993063 missing or incorrect size
+[2024-05-14 11:09:35] Package file public_all.zip.vz.0de8bfa154888a7baa79a4c4e3d56405c72e7995_23520797 missing or incorrect size
+[2024-05-14 11:09:35] Package file steamui_websrc_sounds_all.zip.vz.c634f37fd266b2c14bc143d5d57fb30b8ce449d2_2888150 missing or incorrect size
+[2024-05-14 11:09:35] Package file bins_ubuntu12.zip.vz.d84e1f1d111445f3b3c99b2eec2c0fb167e1b624_28968789 missing or incorrect size
+[2024-05-14 11:09:35] Package file bins_sdk_ubuntu12.zip.vz.30861028b19cb5307b3d5838c53ef4aa3eeb8987_19348195 missing or incorrect size
+[2024-05-14 11:09:35] Package file bins_codecs_ubuntu12.zip.vz.6592f3734983aaf25efdad3db98c8428a0dd6c1a_8752219 missing or incorrect size
+[2024-05-14 11:09:35] Package file bins_misc_ubuntu12.zip.vz.8c4f9e5a584bc7b4f05ebb9bf1c86bc1cb70ea20_18515544 missing or incorrect size
+[2024-05-14 11:09:35] Package file webkit_ubuntu12.zip.vz.2ad1b564989f4e9711045548f6054e4481cc5601_79848099 missing or incorrect size
+[2024-05-14 11:09:35] Package file sdl3_ubuntu12.zip.vz.07c82040a65355567acb4248114385a666503e19_1381754 missing or incorrect size
+[2024-05-14 11:09:35] Package file steam_ubuntu12.zip.vz.03205071f2b9f8d809d5a2a4ecbfd9df23889447_2594908 missing or incorrect size
+[2024-05-14 11:09:35] Package file runtime_scout_ubuntu12.zip.173ded7eb6a37af14f5dc8cca76f1a65a84764ad missing or incorrect size
+[2024-05-14 11:09:35] Package file runtime_heavy_ubuntu12.zip.40c2ee4d543ac40206a5cb8ac81482c1db831c0b missing or incorrect size
+[2024-05-14 11:09:35] Package file runtime_sniper_ubuntu12.zip.37bb2c76f8995971ff9ed37e725cb178c76eff58 missing or incorrect size
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/tenfoot_images_all.zip.vz.193cb8c4eb4446698ea2c0a9e8c4e6b6a623dac7_5572671
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/steamui_websrc_all.zip.vz.332e3ad11531fbc73d9d4386db69e19ee5204a94_23944019
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/resources_all.zip.vz.3c8b3203e5c69d75ea0684c2409b86fe4d0d6f83_2856188
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/strings_en_all.zip.e1cd2a3b5822d0400544f9bed9058c3a1bd33ded
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/strings_all.zip.vz.314c1458602e7b2229885ddfb8ab5ece82c115d2_1993063
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/public_all.zip.vz.0de8bfa154888a7baa79a4c4e3d56405c72e7995_23520797
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/steamui_websrc_sounds_all.zip.vz.c634f37fd266b2c14bc143d5d57fb30b8ce449d2_2888150
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/bins_ubuntu12.zip.vz.d84e1f1d111445f3b3c99b2eec2c0fb167e1b624_28968789
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/bins_sdk_ubuntu12.zip.vz.30861028b19cb5307b3d5838c53ef4aa3eeb8987_19348195
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/bins_codecs_ubuntu12.zip.vz.6592f3734983aaf25efdad3db98c8428a0dd6c1a_8752219
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/bins_misc_ubuntu12.zip.vz.8c4f9e5a584bc7b4f05ebb9bf1c86bc1cb70ea20_18515544
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/webkit_ubuntu12.zip.vz.2ad1b564989f4e9711045548f6054e4481cc5601_79848099
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/sdl3_ubuntu12.zip.vz.07c82040a65355567acb4248114385a666503e19_1381754
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/steam_ubuntu12.zip.vz.03205071f2b9f8d809d5a2a4ecbfd9df23889447_2594908
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/runtime_scout_ubuntu12.zip.173ded7eb6a37af14f5dc8cca76f1a65a84764ad
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/runtime_heavy_ubuntu12.zip.40c2ee4d543ac40206a5cb8ac81482c1db831c0b
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Add pending download: https://client-update.akamai.steamstatic.com/runtime_sniper_ubuntu12.zip.37bb2c76f8995971ff9ed37e725cb178c76eff58
+[2024-05-14 11:09:35] Manifest download: send request
+[2024-05-14 11:09:35] Downloading update (2,802 of 455,580 KB)...
+[2024-05-14 11:09:35] Downloading update (5,589 of 455,580 KB)...
+[2024-05-14 11:09:36] Downloading update (8,134 of 455,580 KB)...
+[2024-05-14 11:09:36] Downloading update (10,980 of 455,580 KB)...
+[2024-05-14 11:09:36] Downloading update (13,539 of 455,580 KB)...
+[2024-05-14 11:09:36] Downloading update (15,932 of 455,580 KB)...
+[2024-05-14 11:09:37] Downloading update (18,471 of 455,580 KB)...
+[2024-05-14 11:09:37] Downloading update (21,449 of 455,580 KB)...
+[2024-05-14 11:09:37] Downloading update (24,451 of 455,580 KB)...
+[2024-05-14 11:09:37] Downloading update (26,964 of 455,580 KB)...
+[2024-05-14 11:09:38] Downloading update (29,997 of 455,580 KB)...
+[2024-05-14 11:09:38] Downloading update (32,769 of 455,580 KB)...
+[2024-05-14 11:09:38] Downloading update (35,325 of 455,580 KB)...
+[2024-05-14 11:09:38] Downloading update (38,296 of 455,580 KB)...
+[2024-05-14 11:09:39] Downloading update (41,104 of 455,580 KB)...
+[2024-05-14 11:09:39] Downloading update (43,855 of 455,580 KB)...
+[2024-05-14 11:09:39] Shutdown
+[2024-05-14 11:09:39] Cancelling download 1 - 1 - 0
+[2024-05-14 11:09:39] Saving metrics to disk (/home/gabriel-oliveira/.local/share/Steam/package/steam_client_metrics.bin)
+[2024-05-14 11:09:39] Verifying installation...
+[2024-05-14 11:09:39] Performing checksum verification of executable files
+[2024-05-14 11:09:39] Verification complete
+CWorkThreadPool::~CWorkThreadPool: work complete queue not empty, 6 items discarded.
