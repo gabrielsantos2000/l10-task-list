@@ -5,7 +5,7 @@
     <h1 align="center">L10-TASK-LIST</h1>
 </p>
 <p align="center">
-    <em><code>► INSERT-TEXT-HERE</code></em>
+    A simple application for managing task list
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/gabrielsantos2000/l10-task-list?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -38,13 +38,18 @@
 
 ## 📍 Overview
 
-<code>► INSERT-TEXT-HERE</code>
+Small application to apply the first steps in Laravel, having the basic concepts of routes, controllers, models, eloquent, migration, factories, seeders, applying this in a simple task list CRUD.
 
 ---
 
 ## 🧩 Features
 
-<code>► INSERT-TEXT-HERE</code>
+<code>► List all tasks</code>\
+<code>► Create a task</code>\
+<code>► Edit a task</code>\
+<code>► Update a task</code>\
+<code>► Delete a task</code>\
+<code>► Toggle completed task</code>
 
 ---
 
@@ -336,7 +341,7 @@
 
 **System Requirements:**
 
-* **PHP**: `version x.y.z`
+* **PHP**: `version 8.2.12`
 
 ### ⚙️ Installation
 
@@ -362,25 +367,20 @@
 
 <h4>From <code>source</code></h4>
 
+> Run docker-compose.yml using the command below:
+> ```console
+> $ docker compose -up
+> ```
+
 > Run l10-task-list using the command below:
 > ```console
-> $ php main.php
+> $ php artisan serve
 > ```
 
-### 🧪 Tests
-
-> Run the test suite using the command below:
+> Run seeds using the command below:
 > ```console
-> $ vendor/bin/phpunit
+> $ php artisan db:seed
 > ```
-
----
-
-## 🛠 Project Roadmap
-
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
 
 ---
 
@@ -431,13 +431,9 @@ Contributions are welcome! Here are several ways you can contribute:
 
 ## 🎗 License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the [MIT](https://choosealicense.com/licenses/mit/) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
-
-## 🔗 Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
 
 [**Return**](#-overview)
 
